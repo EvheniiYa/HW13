@@ -1,0 +1,185 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700&display=swap');
+
+@font-face {
+    font-family: 'Gilroy';
+    font-weight: bold;
+    font-display: swap;
+    src: url("fonts/Gilroy-ExtraBold.woff2") format('woff2'),
+    url("fonts/Gilroy-ExtraBold.woff") format('woff');
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    src: url("fonts/Gilroy-Light.woff2") format('woff2'),
+    url("fonts/Gilroy-Light.woff") format('woff');
+}
+
+/*start section 1*/
+
+
+.ourservices {
+    font-family: 'Mulish', sans-serif;
+}
+
+.container {
+    width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title-our-cervices {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.56;
+    color: #000000;
+}
+
+.title-our-cervices::after {
+    content: "";
+    width: 56px;
+    display: block;
+    height: 2px;
+    background-color: black;
+    border-radius: 1px;
+    margin-top: 26px;
+}
+
+.title-center {
+    text-align: center;
+}
+
+.title-center::after {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ourservices {
+    width: 1120px;
+    margin-bottom: 220px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.cards {
+    width: 350px;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 46px 38px;
+    background-color: #FFFFFF;
+}
+
+.ulbody {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 34px 37px;
+}
+
+.ulbody h3 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 2.3;
+}
+
+.description {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.66;
+    color: #7D7987;
+    text-align: center;
+    margin-bottom: 80px;
+    margin-top: 33px;
+}
+
+.ulbody p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #7D7987;
+}
+
+.ulbody img {
+    margin-bottom: 24px;
+}
+
+/*End section 1*/
+
+
+/*Start section 2*/
+
+.fonts {
+    font-family: Gilroy, sans-serif;
+}
+
+.container-two {
+    width: 1172px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.services {
+
+    padding-bottom: 136px;
+    background-color: white;
+}
+
+.services h2 {
+    margin-bottom: 24px;
+    font-size: 32px;
+    line-height: 1.19;
+    color: #000000;
+}
+
+.services p {
+    margin-bottom: 64px;
+    font-size: 18px;
+    line-height: 1.35;
+    color: #000000;
+}
+
+.services-list {
+    display: grid;
+    grid-template-columns: repeat(4, 270px);
+    grid-gap: 30px;
+}
+
+.services-list h3 {
+    margin-bottom: 74px;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #000000;
+}
+
+.services-list a {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.36;
+    color: #000000;
+}
+
+.services-list figcaption {
+    padding: 24px;
+    background-color: #FAFAFA;
+}
+
+.services-list a:after {
+    content: ' ›';
+}
+
+.services-list li:hover figcaption {
+    background-color: #FFFFFF;
+    transition: all 0.3s;
+}
+
+.services-list li:hover {
+    filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.05));
+}
+
+.services-list li{
+    transition: all 0.3s;
+}
+
+/*End section 2*/
